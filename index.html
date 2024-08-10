@@ -247,7 +247,25 @@ header {
 }
 
 
+@media (max-width: 768px) {
+    header {
+        height: 60vh; /* Reduce height for tablets and small screens */
+        background-size: cover; /* Ensure background covers header */
+        background-position: center center; /* Center the image */
+        background-attachment: scroll; /* Change to scroll for mobile */
+        padding: 40px 0; /* Adjust padding */
+    }
+}
 
+@media (max-width: 480px) {
+    header {
+        height: 50vh; /* Further reduce height for mobile phones */
+        background-size: cover; /* Ensure background covers header */
+        background-position: center center; /* Center the image */
+        background-attachment: scroll; /* Change to scroll for mobile */
+        padding: 20px 0; /* Adjust padding */
+    }
+}
 
 
 
