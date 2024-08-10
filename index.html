@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi Uplenchwar Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sakshi Uplenchwar Portfolio</h1>
+            <p>Welcome to Sakshi's Portfolio</p>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Sakshi</h2>
+            <p>I’m Sakshi uplenchwar entrepreneur and hardworking individual. I started my career as a Pharmacist, and have since discovered my passion for technology, beautyproducts,a and healthy lifestyle.I spend my time working on my skin,health and motivating others from my instagram and snapchat.</p>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <h2>Sakshi`s Gallery</h2>
+            <div class="grid">
+                <img src="photos/6e5a4b23-cde2-40d4-aa8a-f9d95bda6bc4.jpeg" alt="Glamour shot 1">
+                <img src="photos/21a77db9-86bd-4a0d-96f6-f5a95b356313.jpeg" alt="Glamour shot 2">
+                <img src="photos/21924df6-21c3-4326-8754-335e720d93fe.jpeg" alt="Glamour shot 3">
+                <img src="photos/61be2353-dc55-4eae-a17c-37872c2ae8b2.jpeg" alt="Glamour shot 4">
+                <img src="photos/0873b0e1-23d8-490d-9f0d-fed7a16285a5.jpeg" alt="Glamour shot 5">
+                <img src="photos/8608c307-4e6b-46b4-8b53-18ae4a16ea1c.jpeg" alt="Glamour shot 6">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you would like to work with Sakshi, please reach out at:</p>
+            <p>Email: uplenchwarsakshi47@gmail.com</p>
+            <p>Phone: 7058928595</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 [Sakshi uplenchwar]. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: #444;
+}
+
+section.about p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.gallery .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact p {
+    font-size: 1.2em;
+    line-height: 1.8em;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+}
+/* header {
+    background-image: url('photos/be4d2329-b511-408b-858b-cdbd2adfd537.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+    
+} */
+header {
+    background-image: url('photos/be4d2329-b511-408b-858b-cdbd2adfd537.jpeg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire header */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Makes the background image fixed */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a dark overlay to the image */
+    background-blend-mode: overlay; /* Optional: Blends the image with the background color */
+    color: #fff; /* Ensures text is visible against the background */
+    padding: 60px 0;
+    text-align: center;
+    height: 100vh; /* Makes the header take up the full viewport height */
+    display: flex; /* Flexbox for centering content */
+    align-items: center; /* Vertically centers content */
+    justify-content: center; /* Horizontally centers content */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Adds a shadow to text for better readability */
+}
+.about h2 {
+    font-family: 'Lora', serif;
+    font-size: 4em; /* Increased font size */
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.about p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12em; 
+    line-height: 1.8;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+
+.contact {
+    font-family: 'Lora', serif;
+    font-size: 1.2em; /* Increased font size */
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.container {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em; /* Increased font size */
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+
+
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .contact {
+        padding: 40px 10px;
+    }
+
+    .contact h2 {
+        font-size: 1.8em;
+    }
+
+    .contact p {
+        font-size: 1em;
+    }
+
+    .about {
+        padding: 40px 10px;
+    }
+
+    .about h2 {
+        font-size: 2em;
+    }
+
+    .about p {
+        font-size: 1.2em;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact {
+        padding: 20px 5px;
+    }
+
+    .contact h2 {
+        font-size: 1.5em;
+    }
+
+    .contact p {
+        font-size: 0.9em;
+    }
+
+    .about {
+        padding: 20px 5px;
+    }
+
+    .about h2 {
+        font-size: 1.5em;
+    }
+
+    .about p {
+        font-size: 1em;
+        line-height: 1.5;
+    }
+}
+
+
+
+
+
+
+</style>
